@@ -12,6 +12,10 @@ angular.module('zogalleryApp', [
         templateUrl: 'partials/main',
         controller: 'MainCtrl'
       })
+      .when('/gallery', {
+        templateUrl: 'partials/gallery',
+        controller: 'GalleryCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -5,6 +5,9 @@ angular.module('zogalleryApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    },{
+        'title': 'Gallery',
+        'link' : '/gallery'
     }];
     
     $scope.isActive = function(route) {

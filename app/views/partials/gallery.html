@@ -1,0 +1,10 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="gallery">
+    <ul ng-repeat="picture in pictures">
+        <li>
+            <img src="{{picture.src}}" alt="{{picture.name}}" /><br />
+            <p>[{{$index+1}}] {{picture.name}}</p>
+        </li>
+    </ul>
+</div>
