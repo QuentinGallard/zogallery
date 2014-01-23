@@ -2,6 +2,9 @@
 
 angular.module('zogalleryApp')
     .controller('GalleryCtrl', function ($scope) {
+
+        $scope.title = 'C\'est qui le plus fort ?';
+
         $scope.pictures = [{
             'name': 'Elephant',
             'src': '/images/elephant.jpeg'
@@ -12,6 +15,4 @@ angular.module('zogalleryApp')
             'name': 'Rhinoceros',
             'src' : '/images/rhinoceros.jpg'
         }];
-
-        console.log($scope.pictures);
     });
