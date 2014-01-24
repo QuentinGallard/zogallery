@@ -1,1 +1,0 @@
-It's just a gallery as an exercise with AngularJs.
