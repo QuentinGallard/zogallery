@@ -5,8 +5,8 @@
 <div class="gallery">
     <ul ng-repeat="picture in pictures">
         <li>
-            <img src="{{picture.src}}" alt="{{picture.name}}" /><br />
-            <p>[{{$index+1}}] {{picture.name}}</p>
+            <img src="{{picture.src}}" alt="{{picture.name}}" height="{{picture.height/2}}" width="{{picture.width/2}}"/><br />
+            <p>[{{$index+1}}] {{picture.name}} - {{picture.width}}x{{picture.height}}</p>
         </li>
     </ul>
 </div>

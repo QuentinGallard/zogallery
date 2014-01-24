@@ -3,11 +3,8 @@
 angular.module('zogalleryApp')
   .controller('NavbarCtrl', function ($scope, $location) {
     $scope.menu = [{
-      'title': 'Home',
+      'title': 'Gallery',
       'link': '/'
-    },{
-        'title': 'Gallery',
-        'link' : '/gallery'
     }];
     
     $scope.isActive = function(route) {

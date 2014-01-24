@@ -9,10 +9,6 @@ angular.module('zogalleryApp', [
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/main',
-        controller: 'MainCtrl'
-      })
-      .when('/gallery', {
         templateUrl: 'partials/gallery',
         controller: 'GalleryCtrl'
       })
